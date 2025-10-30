@@ -189,7 +189,8 @@ fun Screen(){
                     onValueChange = {name = it },
                     modifier = Modifier
                         .fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp)
+                    shape = RoundedCornerShape(12.dp),
+                    maxLines = 1
                 )
             }
             Spacer(modifier = Modifier.height(12.dp))
@@ -212,7 +213,9 @@ fun Screen(){
                     onValueChange = {rollNo = it },
                     modifier = Modifier
                         .fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp))
+                    shape = RoundedCornerShape(12.dp),
+                    maxLines = 1
+                )
             }
             Spacer(modifier = Modifier.height(12.dp))
             Row(
@@ -231,7 +234,9 @@ fun Screen(){
                     onValueChange = { section = it },
                     modifier = Modifier
                         .fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp))
+                    shape = RoundedCornerShape(12.dp),
+                    maxLines = 1
+                )
             }
             Spacer(modifier = Modifier.height(12.dp))
             Row(
@@ -250,7 +255,8 @@ fun Screen(){
                     onValueChange = { club = it },
                     modifier = Modifier
                         .fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp)
+                    shape = RoundedCornerShape(12.dp),
+                    maxLines = 1
                 )
             }
         }
